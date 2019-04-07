@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:minWidth="25px"
+	android:minHeight="25px">
+	<TextView
+		android:text="输入手机号"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1"/>
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/textView1"
+		android:id="@+id/PhoneNumberText"
+		android:hint="请输入你的电话号码"
+		android:text="1-855-XAMARIN" />
+	<Button
+		android:text="点击生成数字电话号"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/PhoneNumberText"
+		android:id="@+id/TranslateButton" />
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/TranslateButton"
+		android:id="@+id/TranslatedPhoneword" />
+	<Button
+		android:text="@string/translationHistory"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/TranslatedPhoneword"
+		android:id="@+id/TranslationHistoryButton"
+		android:contentDescription="用于呼出另一个activity"
+		android:enabled="false" />
+	<ImageView
+		android:src="@drawable/phone"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/TranslationHistoryButton"
+		android:id="@+id/imageView1" />
+</RelativeLayout>
