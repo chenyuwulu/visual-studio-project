@@ -45,4 +45,10 @@
 		android:layout_height="wrap_content"
 		android:layout_below="@id/TranslationHistoryButton"
 		android:id="@+id/imageView1" />
+	<Button
+		android:text="跳转到list_item页面"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/imageView1"
+		android:id="@+id/button1" />
 </RelativeLayout>
