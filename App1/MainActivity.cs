@@ -23,7 +23,6 @@ namespace App1
 			TextView translatedPhoneWord = FindViewById<TextView>(Resource.Id.TranslatedPhoneword);
 			Button translateButton = FindViewById<Button>(Resource.Id.TranslateButton);
 			Button translationHistoryButton = FindViewById<Button>(Resource.Id.TranslationHistoryButton);
-            Button list_item = FindViewById<Button>(Resource.Id.button1);
 			// Add code to translate number
 			string translatedNumber = string.Empty;
 			translateButton.Click += (sender, e) =>
